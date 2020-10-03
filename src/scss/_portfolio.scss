@@ -1,0 +1,58 @@
+.portfolio{
+  background-color: #031A1F;
+  min-height: 705px;
+  margin-bottom: 92px;
+  &__title{
+  padding-top: 65px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  &__text{
+    margin: -2px 0 0 0;
+    padding: 30px;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    border-radius: 0 0 30px 0;
+
+  }
+}
+.arrow__btns{
+  position: relative;
+  top: -25px;
+  padding-bottom: 56px;
+}
+.swiper-container{
+  max-width: 1300px;
+  padding-bottom: 80px;
+}
+.swiper-scrollbar-drag{
+  position: absolute;
+ background-color: #FFFFFF;
+  width: 134px !important;
+  height: 10px;
+  z-index: 100 !important;
+  cursor: pointer;
+}
+.swiper-container-horizontal > .swiper-scrollbar{
+  background: rgba(255, 255, 255, 0.44);
+  border-radius: 36px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 402px !important;
+  height: 10px !important;
+  bottom: 4px;
+
+}
+.swiper-button-next,
+.swiper-button-prev{
+  width: 13px;
+  height: 26px;
+  color: #FFFFFF;
+}

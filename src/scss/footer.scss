@@ -1,0 +1,44 @@
+.footer{
+  background: linear-gradient(186.1deg, #01172D 4.83%, rgba(0, 37, 24, 0.88) 99.23%);
+  background-image: url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__container{
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+  }
+  &__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  &__contacts{
+    margin-left: 72px;
+  }
+  &__item{
+  margin-right: 40px;
+    &:nth-child(4){
+      margin-right: 45px;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__link{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(#ffffff, 0.5);
+    transition: color 0.2s;
+    &:hover{
+      color: rgba(#ffffff, 1);
+    }
+  }
+}

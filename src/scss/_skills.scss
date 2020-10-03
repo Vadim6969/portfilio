@@ -1,0 +1,20 @@
+.skills{
+  margin-bottom: 85px;
+  &__title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #031A1F;
+    margin-bottom: 50px;
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__card{
+    max-width: 400px;
+    padding: 12px;
+  }
+}

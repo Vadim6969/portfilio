@@ -1,0 +1,13 @@
+<section class="contact-form">
+  <div class="container contact-form__container">
+    <h4 class="contact-form__title">Связаться со мной</h4>
+    <form action="mail.php" enctype="multipart/form-data" method="POST" class="form">
+      <input type='hidden' name="admin_email[]" value="kisohima69@gmail.com">
+      <label  class="form__text"> Заполните форму,  <br> чтобы связаться со мной</label>
+      <input type="text" placeholder="Имя" class="form__input" name="name">
+      <input type="tel" data-validate-field="tel" placeholder="Телефон" name="tel" class="form__input">
+      <input type="text" placeholder="Комментарий" class="form__input">
+      <button class="form__btn btn-reset">Связаться со мной</button>
+    </form>
+  </div>
+</section>
