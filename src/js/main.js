@@ -69,10 +69,13 @@ btnRight.addEventListener('mouseover', function(){
 })
 const scrollHandler = () => {
   const menu = document.querySelector('.menu');
+  const burgerMenu = document.querySelector('.menu-active__list');
   if(window.scrollY > 150){
     menu.classList.add('menu--fixed')
+    burgerMenu.classList.add('scroll')
   } else{
     menu.classList.remove('menu--fixed')
+    burgerMenu.classList.remove('scroll')
   }
 }
 window.addEventListener('scroll', scrollHandler)

@@ -11,7 +11,59 @@
     display: block;
   }
 }
+@media (max-width: 1258px){
+  .footer__list{
+    display: none;
+  }
+  .about-me__inner{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+  }
+  .about-me__text{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 1229px){
+  .skills{
+    &__card{
+      max-width: 350px;
+    }
+  }
+}
+@media (max-width: 1079px){
+  .skills{
+    &__card{
+      max-width: 320px;
+    }
+  }
+}
+@media (max-width: 989px){
+  .skills{
+    &__card{
+      max-width: 250px;
+    }
+  }
+}
+@media (max-width: 779px){
+  .skills{
+    &__card{
+      max-width: 222px;
+    }
+  }
+}
 @media (max-width: 768px){
+  .footer__nav{
+    padding: 50px 0;
+  }
+  .portfolio{
+    &__text{
+      font-size: 13px;
+      padding: 20px;
+    }
+  }
   .menu{
     padding: 60px 50px 60px 150px;
   }
@@ -22,5 +74,107 @@
     &__title{
       font-size: 50px
     }
+  }
+}
+@media (max-width: 754px){
+  .portfolio{
+    min-height: 530px;
+  }
+  .contacts{
+    &__item{
+      &:first-child{
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 695px){
+  .skills{
+    &__card{
+      max-width: 200px;
+    }
+  }
+}
+@media (max-width: 665px){
+  .skills{
+    &__card{
+      max-width: 180px;
+    }
+  }
+  .portfolio{
+    min-height: 530px;
+    &__text{
+      font-size: 9px;
+      padding: 15px;
+    }
+  }
+  .btn-right{
+    margin-top: 30px;
+    margin-left: 0 !important;
+  }
+  .header{
+    &__title{
+      font-size: 40px;
+    }
+    &__text{
+      font-size: 14px;
+    }
+    &__btns{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .about-me__text{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 540px){
+  .contact-form{
+    &__title{
+      font-size: 24px;
+    }
+  }
+  .form__input{
+    width: 60%;
+  }
+  .form__btn{
+    margin: 5px 0 40px;
+    font-size: 14px;
+  }
+  .form__text{
+    font-size: 16px;
+    padding-top: 55px;
+  }
+  .skills{
+    &__card{
+      max-width: 120px;
+    }
+  }
+  .portfolio{
+    min-height: 400px;
+    &__text{
+      font-size: 6px;
+      padding: 9px;
+    }
+  }
+  .about-me__text{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .menu{
+    padding-left: 10px;
+  }
+  .burger-menu{
+    margin-left: 30px;
+  }
+}
+@media (max-width: 521px){
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
   }
 }
