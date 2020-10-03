@@ -67,14 +67,30 @@
   }
 }
 @media (max-width: 768px){
-
+  .header{
+    &__inner{
+      margin-top: 100px;
+    }
+    &__text{
+      max-width: 618px;
+    }
+    &__arrow{
+      display: none;
+    }
+    &__btns{
+      margin-bottom: 160px;
+    }
+  }
   .footer__nav{
-    padding: 50px 0;
+    padding: 30px 0;
   }
   .portfolio{
     &__text{
       font-size: 13px;
       padding: 20px;
+    }
+    &__title{
+      font-size: 35px;
     }
   }
   .menu{
@@ -90,6 +106,9 @@
   }
   .about-me__text{
     font-size: 16px;
+  }
+  .about-me__title{
+    font-size: 35px;
   }
 }
 @media (max-width: 754px){
@@ -112,6 +131,11 @@
   }
 }
 @media (max-width: 665px){
+  .header{
+    &__btn{
+      font-size: 16px;
+    }
+  }
   .about-me__item{
     font-size: 14px;
   }
@@ -152,6 +176,14 @@
   }
 }
 @media (max-width: 540px){
+  .header{
+    &__title{
+      font-size: 30px;
+    }
+    &__text{
+      font-size: 11px;
+    }
+  }
   .about-me__item{
     font-size: 12px;
     &:not(:last-child){
@@ -201,5 +233,10 @@
   .swiper-button-prev,
   .swiper-button-next{
     display: none;
+  }
+}
+@media (max-width: 363px){
+  .header__title{
+    font-size: 24px;
   }
 }

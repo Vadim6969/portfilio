@@ -35,7 +35,6 @@ const mySwiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   centeredSliders: true,
   loop: true,
-  autoplay: true,
 
   navigation: {
     nextEl: '.swiper-button-next',
@@ -46,9 +45,7 @@ const mySwiper = new Swiper('.swiper-container', {
     el: '.swiper-scrollbar',
     draggable: true,
   },
-  fadeEffect: {
-    crossFade: true
-  },
+
 })
 
 const btnLeft = document.querySelector('.btn-left');
