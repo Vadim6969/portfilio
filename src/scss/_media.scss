@@ -25,6 +25,12 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .about-me__text-inner{
+    margin-top: 60px;
+  }
+  .about-me__item{
+    text-align: center;
+  }
 }
 @media (max-width: 1229px){
   .skills{
@@ -41,6 +47,12 @@
   }
 }
 @media (max-width: 989px){
+  .menu{
+    padding: 30px 100px;
+  }
+  .menu-active__list.open{
+    top: 94px;
+  }
   .skills{
     &__card{
       max-width: 250px;
@@ -55,6 +67,7 @@
   }
 }
 @media (max-width: 768px){
+
   .footer__nav{
     padding: 50px 0;
   }
@@ -65,7 +78,7 @@
     }
   }
   .menu{
-    padding: 60px 50px 60px 150px;
+    padding: 30px 50px 30px 150px;
   }
   .burger-menu{
     margin-left: 134px;
@@ -74,6 +87,9 @@
     &__title{
       font-size: 50px
     }
+  }
+  .about-me__text{
+    font-size: 16px;
   }
 }
 @media (max-width: 754px){
@@ -96,6 +112,9 @@
   }
 }
 @media (max-width: 665px){
+  .about-me__item{
+    font-size: 14px;
+  }
   .skills{
     &__card{
       max-width: 180px;
@@ -133,6 +152,12 @@
   }
 }
 @media (max-width: 540px){
+  .about-me__item{
+    font-size: 12px;
+    &:not(:last-child){
+      margin-bottom: 15px;
+    }
+  }
   .contact-form{
     &__title{
       font-size: 24px;

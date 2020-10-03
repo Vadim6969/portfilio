@@ -5,6 +5,18 @@
     justify-content: space-between;
     margin-bottom: 100px;
   }
+  &__text-inner{
+    max-width: 536px;
+  }
+  &__item{
+    margin: 0 ;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    &:not(:last-child){
+      margin-bottom: 30px;
+    }
+  }
   &__title{
     font-weight: 700;
     text-align: center;
@@ -12,16 +24,6 @@
     color: #000000;
     margin-bottom: 50px;
     margin-top: 81px;
-  }
-  &__text{
-    padding: 5px;
-    width: 550px;
-    font-size: 16px;
-    line-height: 43px;
-    font-weight: 400;
-    height: 412px;
-    color: #000000;
-    text-align: left;
   }
   &__photo{
     max-width: 648px;
