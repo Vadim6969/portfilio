@@ -175,6 +175,13 @@
     padding-right: 15px;
   }
 }
+@media (max-width: 569px){
+  .skills{
+    &__inner{
+      justify-content: center;
+    }
+  }
+}
 @media (max-width: 540px){
   .header{
     &__title{
